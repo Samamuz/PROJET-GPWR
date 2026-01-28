@@ -1,0 +1,27 @@
+# Fichiers système (à ne pas partager)
+.DS_Store           # macOS
+Thumbs.db           # Windows
+Desktop.ini         # Windows
+
+# Dossiers d'éditeurs de code
+.vscode/            # Visual Studio Code
+.idea/              # IntelliJ IDEA
+*.sublime-*         # Sublime Text
+
+# Fichiers temporaires
+*.log               # Logs
+*.tmp               # Fichiers temporaires
+*~                  # Fichiers de backup
+.cache/             # Cache
+
+# Fichiers de test locaux (si vous en faites)
+test/
+*.test.html
+
+# Node modules (si vous utilisiez npm - pas dans ce projet)
+node_modules/
+
+# Secrets (TRÈS IMPORTANT)
+.env                # Variables d'environnement
+config.local.*      # Configurations locales
+*.key               # Clés privées
