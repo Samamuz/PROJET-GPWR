@@ -7,6 +7,10 @@
 body {
     font-family: 'Work Sans', sans-serif;
     background: #ffffff;
+    background-image: url('../img/backgroundW.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     min-height: 100vh;
     padding: 40px 20px;
     color: #000000;
@@ -99,8 +103,8 @@ body {
 }
 
 .photo-container {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border: 2px solid #000000;
     overflow: hidden;
     transition: border 0.3s ease;
@@ -246,13 +250,17 @@ h2 {
 /* Dark Theme */
 body.dark-theme {
     background: #000000;
+    background-image: url('../img/backgroundB.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #ffffff;
 }
 
 body.dark-theme .container {
     background: #000000;
     border: 1px solid #ffffff;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 15px rgba(78, 78, 78, 0.8);
 }
 
 body.dark-theme .lang-btn {
